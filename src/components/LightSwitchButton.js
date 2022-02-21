@@ -1,8 +1,12 @@
 import {useState} from 'react';
+import App from '../App';
 
 function LightSwitchButton(props) {
   const {light, switchLight} = props;
-  // const handleClick = () => setLight(light === "on" ? "off" : "on"); we remove the setLight prop?
+
+  // const [light, setLight] = useState("off");
+  // const handleClick = () => setLight(light === "on" ? "off" : "on"); 
+  // we remove the setLight prop because it is now handled by App.js
 
   return (
   <button onClick={switchLight} className="LightSwitchButton">

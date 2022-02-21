@@ -17,7 +17,7 @@ function App() {
       <section>
         <AngryButton />
         <CounterButton />
-        <LightSwitchButton light={light} setLight={setLight} switchLight={switchLight}/>
+        <LightSwitchButton light={light} switchLight={switchLight}/>
         <TextRepeaterButton />
       </section>
     </div>
